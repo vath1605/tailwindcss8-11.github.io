@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.myBtn{
+    @apply w-28 h-12 text-white rounded-lg font-bold mx-2 shadow-md
+     shadow-zinc-400 active:translate-x-1 active:translate-y-2 transition-all
+      duration-200 active:shadow-none;
+}
