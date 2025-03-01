@@ -9,3 +9,6 @@
      shadow-zinc-400 active:translate-x-1 active:translate-y-2 transition-all
       duration-200 active:shadow-none;
 }
+.nav{
+     @apply flex flex-col items-center p-3 rounded-xl;
+}
